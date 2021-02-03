@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piedra, papel o tijera</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+        <h1 id="title">Piedra, Papel o Tijeras</h1>
+        <div id="display">
+            <div id="human-selection"></div>
+            <div id="computer-selection"></div>
+        </div>
+        <div id="display-text">
+            <p id="text"></p>
+        </div>
+        <p id="instruction">Elige una opción</p>
+        <div id="score">
+            <p></p>
+        </div>
+        <div id="weapons">
+            <div class="rock"></div>
+            <div class="paper"></div>
+            <div class="scissors"></div>
+        </div>
+        <div id="results" class="hidden">Ganaste!</div>
+        <div id="btn-cont" class="hidden">
+            <div id="button-container">
+                <button id="restart">Juega otra vez!</button>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

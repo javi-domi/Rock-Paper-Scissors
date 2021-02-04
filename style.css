@@ -91,6 +91,17 @@ body {
 #button-container:hover {
   scale: 1.1;
 }
+#results {
+  font-family: "Fredoka One", cursive;
+  font-size: 2rem;
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+}
+#btn-cont {
+  display: flex;
+  margin-top: 30px;
+}
 .hidden {
   display: none;
 }
